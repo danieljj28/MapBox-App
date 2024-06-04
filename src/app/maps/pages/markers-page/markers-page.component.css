@@ -1,0 +1,33 @@
+.map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.btn-add{
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+
+.list-group{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.list-group-item{
+  display: flex;
+}
+
+.span-index{
+  padding-right: 10px;
+}
+
+.btn-delete{
+  border: none;
+}
+
+.btn-delete:hover{
+  color: red;
+}
