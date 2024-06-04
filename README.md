@@ -23,3 +23,25 @@ npm run envs
 ```
   npm run build
 ```
+
+
+# EXPLICACIÓN : 
+
+## FullScreen :
+
+  Muestra el mapa completo. Funcionalidades básicas por defecto.
+
+##  Zoom-Range :
+
+  Implementación de un input type range para acercar o alejar el mapa. Conectado con ambos botones y la rueda del mouse.
+  Además aparece el zoom actual y la longitud y latitud.
+
+## Marker :
+
+  Implementación de los markers de mapBox.
+  Genera un marker o chincheta en el centro de la visualización al pulsar el boton de añadir.
+  Se pueden eliminar y "volar" hacía ellos. También se pueden mover.
+
+## Properties :
+
+  Recreación de lo que sería distintas cards de distintas propiedades o casas, donde el mapa es una sección de dicha card.
