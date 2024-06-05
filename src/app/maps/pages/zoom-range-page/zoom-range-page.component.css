@@ -10,7 +10,7 @@
   bottom: 20px;
   left: 20px;
   z-index: 999;
-  width: 500px;
+  width: fit-content;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.3);

@@ -1,20 +1,21 @@
 <div class="row mt3">
-  <div class="col-2"></div>
+  <div class="col-5 col-sm-3 col-md-3 col-lg-2"></div>
   <div class="col">
     <h3>Listado De Propiedades</h3>
     <hr>
   </div>
+  <div class="col-1"></div>
 </div>
 
 <div class="row mt-2">
-  <div class="col-2"></div>
+  <div class="col-5 col-sm-3 col-md-3 col-lg-2"></div>
 
   <div class="col">
 
     <div class="row">
 
       <!-- Houses -->
-      <div *ngFor="let house of houses" class="col-4 mb-4">
+      <div *ngFor="let house of houses" class="col-12 col-md-6 mb-4">
         <div class="card">
 
           <maps-mini-map [lngLat]="house.lngLat"></maps-mini-map>
@@ -37,5 +38,9 @@
     </div>
 
   </div>
-
+  <div class="col-1"></div>
+  <counter-alone class="m-3" [counter]="25"></counter-alone>
 </div>
+
+
+
